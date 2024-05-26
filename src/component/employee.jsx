@@ -122,7 +122,7 @@ const EmplMng = () =>{
         
           <div className="average_cont">
             <div className="avg_div">
-             <p>Average Age: <b>{averageAge.toFixed(2)}</b></p>
+             <p>Average Age: <b>{averageAge}</b></p>
             </div>
           <button onClick={calculateAverageAge}>Calculate Average Age</button>
           </div>
