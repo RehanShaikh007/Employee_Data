@@ -1,0 +1,139 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.employee-management{
+  /* border: 2px solid violet; */
+  height: 100vh;
+}
+.container{
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: space-between;
+  padding: 1% 10%;
+}
+.employee-list{
+  border: 4px solid black;
+  width: 40%;
+}
+.employee-list ul{
+  overflow-y: scroll;
+  height: 450px;
+}
+.employee-list ul::-webkit-scrollbar {
+  width: 0px;
+  background: transparent; 
+}
+
+.employee-list button {
+  padding: 1% 10%;
+  margin: 1% 0;
+  font-size: 0.7em;
+  border-radius: 10px;
+  border: 2px solid white;
+  background: transparent;
+  color: white;
+}
+
+.employee-list button:hover{
+    background-color: rgb(2, 196, 2);
+    color: white;
+    cursor: pointer;
+}
+.employee-list h2{
+  text-align: center;
+  padding: 4% 2%;
+}
+.team-list{
+  border: 4px solid black;
+  width: 40%;
+}
+
+.team-list ul{
+  overflow-y: scroll;
+  height: 400px;
+  
+}
+
+.team-list ul::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+.removeBtn {
+  padding: 1% 10%;
+  margin: 1% 0;
+  font-size: 0.7em;
+  border-radius: 10px;
+  border: 2px solid white;
+  background: transparent;
+  color: white;
+}
+
+.removeBtn:hover{
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+.team-list h2{
+  text-align: center;
+  padding: 4% 2%;
+
+}
+.sortBtn{
+  padding: 1% 5%;
+  margin-bottom: 2%;
+  margin-left: 1%;
+  font-size: 1em;
+  border-radius: 10px;
+  background-color: rgb(221, 5, 167);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.average_cont{
+  /* border: 2px solid blue; */
+  text-align: center;
+}
+.average_cont p{
+  font-size: 2em;
+}
+
+.avg_div{
+  margin-top: 1.5%;
+
+}
+
+.average_cont button{
+  padding: 0.5% 1%;
+  font-size: 1em;
+  margin: 1% 0;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+.average_cont button:hover{
+  background-color: transparent;
+  border: 2px solid black;
+  color: black;
+}
+ul li{
+  list-style: none;
+  /* border: 2px solid orange; */
+  background-color: rgb(26, 97, 220);
+  margin: 1% 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 2% 5%;
+  font-size: 1.2em;
+  color: white;
+}
+
+.list{
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+}
